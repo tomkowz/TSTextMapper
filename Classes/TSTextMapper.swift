@@ -59,9 +59,9 @@ class TSTextMapper {
         return objects
     }
     
-    init(font: UIFont, viewSize: CGSize) {
-        self.font = font
-        self.viewSize = viewSize
+    init(_ view: UILabel) {
+        self.font = view.font
+        self.viewSize = view.bounds.size
     }
     
     func mapTextAndMakeAllTappable(text: String) {

@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     private var mapper: TSTextMapper?
     @IBAction func handleTap(recognizer: UITapGestureRecognizer) {
         if self.mapper == nil {
-            self.mapper = TSTextMapper(font: self.label.font, viewSize: self.label.bounds.size)
+            self.mapper = TSTextMapper(self.label)
             // 1. All words
             self.mapper!.mapTextAndMakeAllTappable(self.label.text!)
             
