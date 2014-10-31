@@ -3,6 +3,8 @@ TSTextMapper
 
 Couple of classes allow you to map a text inside `UILabel` and make the text inside tappable, means it adds the ability to detect which word is tapped. It’s both very simple and powerful.
 
+You can watch it in action [here](https://raw.githubusercontent.com/tomkowz/TSTextMapper/master/tstextmapper.mov?token=ACMkyV3t6zt3rxSuxcMKOyXMRRbaeuI5ks5UXCP0wA%3D%3D).
+
 ### How-To
 
 1. Create `TSTextMapper` instance with font and size of the `UILabel`.
