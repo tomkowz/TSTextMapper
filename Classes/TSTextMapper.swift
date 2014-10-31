@@ -78,7 +78,7 @@ class TSTextMapper {
     private func map(text: String) {
         let analyzer = TSTextAnalyzer(text: text, font: self.font, size: self.viewSize)
         self.lines = analyzer.analize()
-        self.debug()
+//        self.debug()
     }
     
     private func debug() {

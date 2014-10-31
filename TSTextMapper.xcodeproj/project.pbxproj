@@ -128,12 +128,12 @@
 		12E215761A0305430038AD45 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				12E215771A0305510038AD45 /* TSTextAnalyzer.swift */,
 				12E215781A0305510038AD45 /* TSTextMapper.swift */,
-				12E215791A0305510038AD45 /* TSTextNodeView.swift */,
+				12E215771A0305510038AD45 /* TSTextAnalyzer.swift */,
 				12E2157A1A0305510038AD45 /* TSTextRefDetector.swift */,
-				12E2157B1A0305510038AD45 /* TSTextSceneView.swift */,
 				12E2157C1A0305510038AD45 /* TSTextSize.swift */,
+				12E2157B1A0305510038AD45 /* TSTextSceneView.swift */,
+				12E215791A0305510038AD45 /* TSTextNodeView.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
