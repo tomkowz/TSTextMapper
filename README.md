@@ -1,6 +1,8 @@
 TSTextMapper
 ===
 
+**This solution is overwhelmed and overcomplicated. It works but system it is doing it and TextKit has all needed API.**
+
 Few classes allow you to map a text inside `UILabel` and make the text inside tappable, means it adds the ability to detect which word is tapped. It’s both very simple and powerful.
 
 Demo movie `tstextmapper.mov` is attached in the repo and available on [youtube](http://youtu.be/2FRJvEACS6w).
